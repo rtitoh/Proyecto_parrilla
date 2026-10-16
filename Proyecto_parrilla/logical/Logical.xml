@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A77D4B54-59F7-0966-1447-F16B3B97CCE2" mainViewID="20765366-8626-AC69-AD0A-CFBA8672080E">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 14:44:18 UTC</createdTime>
+<ownerDesignName>Parrilla_programa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

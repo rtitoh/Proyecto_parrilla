@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Proyecto_parrilla" id="8C27CD92-7029-6C93-C1FE-89418B71B0BD" version="3.5">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 14:44:18 UTC</createdTime>
+<ownerDesignName>Parrilla_programa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8C27CD92-7029-6C93-C1FE-89418B71B0BD</designId>
+</OSDM_Design>

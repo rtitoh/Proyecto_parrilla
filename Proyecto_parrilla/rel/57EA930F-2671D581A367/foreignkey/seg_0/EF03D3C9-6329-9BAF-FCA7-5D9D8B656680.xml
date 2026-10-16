@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF03D3C9-6329-9BAF-FCA7-5D9D8B656680" containerWithKeyObject="75A87BC8-690F-CAFA-437E-6CE87492EDDE" localFKIndex="D8B53984-004E-602B-6CC7-F0B60B4CC011" name="PROGRAMACIONPARRILLA_SENAL_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>6DD15C55-79CD-FA77-AF7C-80B0CC03EC2D</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<referredTableLongName>SENAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10DD15D3-520F-97E1-9820-FC6E5B2A91DC</referredTableID>
+<keyObject>0872BB7C-4C99-F92B-D383-5E5AC11FBA64</keyObject>
+<referredKeyID>0872BB7C-4C99-F92B-D383-5E5AC11FBA64</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDSENAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

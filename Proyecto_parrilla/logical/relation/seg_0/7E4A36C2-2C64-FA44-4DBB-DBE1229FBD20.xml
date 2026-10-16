@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="7E4A36C2-2C64-FA44-4DBB-DBE1229FBD20">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:31:47 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<sourcePk>25C8EA92-21F4-6BD6-5178-B02D8B0D0F3D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E35E6173-EB71-6913-80E5-4B2AF946A913</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4DBAAF6-6EFC-B6E6-A6A1-A839825FE463</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

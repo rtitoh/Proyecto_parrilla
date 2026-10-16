@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF8685D-2DC2-57C2-A495-90DA997DB604" name="TIPOPRODUCCION">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>2751B2F9-27ED-0217-CD57-4D106EA0BD80</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDTIPOPRODUCCION" id="0C5EBD68-56F2-16F5-CE46-A819E152EC7D">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>B71B3444-0F47-07B1-7B79-92E47C47ECE2</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBREPRODUCCION" id="42C04A2E-E98F-FCFE-970F-633D2FDA8B91">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>CDB43624-107F-3C23-FE75-66C0DB62B882</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89D417D6-B950-E7DF-FDC9-8EC42FEAAF24" name="TIPOPRODUCCION_PK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>11820421-3346-ABD4-1DDD-6D1B7E88A1D3</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5EBD68-56F2-16F5-CE46-A819E152EC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

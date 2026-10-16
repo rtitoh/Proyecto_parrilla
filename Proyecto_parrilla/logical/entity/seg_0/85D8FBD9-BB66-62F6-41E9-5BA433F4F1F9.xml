@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85D8FBD9-BB66-62F6-41E9-5BA433F4F1F9" name="SENAL">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:23:43 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDSENAL" id="3798C880-F2AF-95E8-4084-D6A7AC4150B6">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:26:42 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VCODIGOSENAL" id="37A60FE6-D123-AE74-B056-FC14A463E772">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:26:51 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VFORMATO" id="190F1A0B-50DC-A8F8-022B-C1BE077ED9CD">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:26:59 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VDESCRIPCION" id="F55A9F6D-C514-2742-4088-C110FB14BDFA">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:27:04 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AD1029E-3D31-65AD-B509-DF95241D0FF7" name="Señal PK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:27:18 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3798C880-F2AF-95E8-4084-D6A7AC4150B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75A87BC8-690F-CAFA-437E-6CE87492EDDE" name="PROGRAMACIONPARRILLA">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>F4DBAAF6-6EFC-B6E6-A6A1-A839825FE463</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDPROGRAMACION" id="E7DB5F9A-0F80-EB3B-B272-8ED2583764B4">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>2B109FE5-1930-BF03-ED29-4509AF968B8E</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPROGRAMA" id="CC0C16A5-F7AB-17F0-CD02-8E0955EEBBC0">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>3E8DA099-9E2C-C232-96FC-F65302C2197D</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENAL_IIDSENAL" id="83F958A3-D5DD-231E-9E58-D28551837E84">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>8438F455-2894-3693-37D0-5BA043FD17AD</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF03D3C9-6329-9BAF-FCA7-5D9D8B656680" referredColumn="DBF13077-FF96-21AC-5713-717507D8522B"/>
+</associations>
+</Column>
+<Column name="TIPOEMISION_IIDTIPOEMISION" id="FB536728-3F1A-411D-BA69-D5510A46E1FF">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>F8D1F014-A4CC-B690-8DBD-84366B37881E</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="772727E0-4EE8-8370-87C4-FFD71D11410F" referredColumn="8B7C24F0-A5C7-3445-59F7-4B7B8718D877"/>
+</associations>
+</Column>
+<Column name="DFECHA" id="0D8BCEAE-BCE7-0178-C8CF-68B91813A13B">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>F232577D-5EB2-7E85-0C1D-C4DF1D68BB4B</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDIASEMANA" id="885D72E7-38B9-610B-1832-87B9CA49D48E">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>EA3651A0-614C-F185-DE02-6646B2405DB0</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DHORAINICIO" id="3ECE7F2E-2E7C-E00C-37CC-28A799E76EDD">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>F6AC8A1B-C5C6-B95F-8127-E6DB542BDB56</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DHORAFIN" id="1FD69463-7FA2-93AE-28DA-05555C916B16">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>00310021-7DF7-3F05-ECE4-8D1B669C56D7</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMA_IIDPROGRAMA" id="A50AC991-6491-336D-7637-BF7F7D876441">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>8A469CE1-66D7-BEFE-D73E-74FBBAD7BA00</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A87D65D5-4E8B-5CB6-9201-E96074E856EF" referredColumn="5C5F283B-20DF-133E-6D23-799523F66478"/>
+</associations>
+</Column>
+<Column name="PROGRAMA_IIDTIPOPRODUCCION" id="9B4AA4D9-AD6F-5255-C755-B11E60486875">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>6BBD46A7-8E4D-73F9-4035-2D6E72B31B61</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A87D65D5-4E8B-5CB6-9201-E96074E856EF" referredColumn="2B62A290-162E-CB54-02E3-276D3A0150C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8CAA4F7-CFF5-0414-8903-FFC237A1A57D" name="PROGRAMACIONPARRILLA_PK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>C04A9AA7-09B7-B6E6-A030-AB96FC462F76</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DB5F9A-0F80-EB3B-B272-8ED2583764B4"/>
+<colUsage columnID="CC0C16A5-F7AB-17F0-CD02-8E0955EEBBC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8B53984-004E-602B-6CC7-F0B60B4CC011" name="PROGRAMACIONPARRILLA_SENAL_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>6DD15C55-79CD-FA77-AF7C-80B0CC03EC2D</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F958A3-D5DD-231E-9E58-D28551837E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D89B33-7371-5F8B-51BE-E4B380EBE666" name="PROGRAMACIONPARRILLA_TIPOEMISION_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>7E4A36C2-2C64-FA44-4DBB-DBE1229FBD20</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB536728-3F1A-411D-BA69-D5510A46E1FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5B3CE88-1FB9-D69B-6BF2-C65DD076D500" name="PROGRAMACIONPARRILLA_PROGRAMA_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>7A1A0079-C2AF-582C-1899-CB5FFFBD3EA8</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A50AC991-6491-336D-7637-BF7F7D876441"/>
+<colUsage columnID="9B4AA4D9-AD6F-5255-C755-B11E60486875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86F8C01A-1B49-AAE2-1884-AA4B15D4861D" name="SENAL">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>85D8FBD9-BB66-62F6-41E9-5BA433F4F1F9</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDSENAL" id="AA7196BC-EFB2-E519-0857-625D8A9C5BF0">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>3798C880-F2AF-95E8-4084-D6A7AC4150B6</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCODIGOSENAL" id="10A7BF5A-DAE9-CDB4-84D0-4070B526206D">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>37A60FE6-D123-AE74-B056-FC14A463E772</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFORMATO" id="866FF769-27C9-654C-8D8E-9B6537111041">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>190F1A0B-50DC-A8F8-022B-C1BE077ED9CD</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="F928A6C7-E20F-E91B-3598-1D2AEEB81250">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>F55A9F6D-C514-2742-4088-C110FB14BDFA</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7C27A6F-2054-00F2-D539-A5896CFF0007" name="SENAL_PK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:14:51 UTC</createdTime>
+<generatorID>8AD1029E-3D31-65AD-B509-DF95241D0FF7</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7196BC-EFB2-E519-0857-625D8A9C5BF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

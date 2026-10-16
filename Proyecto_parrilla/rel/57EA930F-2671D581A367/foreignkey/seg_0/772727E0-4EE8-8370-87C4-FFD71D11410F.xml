@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="772727E0-4EE8-8370-87C4-FFD71D11410F" containerWithKeyObject="75A87BC8-690F-CAFA-437E-6CE87492EDDE" localFKIndex="F8D89B33-7371-5F8B-51BE-E4B380EBE666" name="PROGRAMACIONPARRILLA_TIPOEMISION_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>7E4A36C2-2C64-FA44-4DBB-DBE1229FBD20</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<referredTableLongName>TIPOEMISION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D116C494-ABCC-3DE7-47B9-3BDE9F4518B1</referredTableID>
+<keyObject>8E41AD4D-DBB6-AFD3-0C91-5964349605FB</keyObject>
+<referredKeyID>8E41AD4D-DBB6-AFD3-0C91-5964349605FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDTIPOEMISION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

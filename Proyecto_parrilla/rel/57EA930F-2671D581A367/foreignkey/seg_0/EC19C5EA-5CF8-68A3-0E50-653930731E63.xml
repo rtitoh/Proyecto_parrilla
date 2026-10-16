@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC19C5EA-5CF8-68A3-0E50-653930731E63" containerWithKeyObject="A05ABCB8-9F1B-9489-B417-D637B9246A38" localFKIndex="83789F48-7F6D-8F94-6E04-9E6766DB56FC" name="DISTRIBUCIONCOSTOS_SENAL_FK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:48:10 UTC</createdTime>
+<generatorID>24150B40-07C3-9DD3-762B-2C9F46B6A4AF</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<referredTableLongName>SENAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10DD15D3-520F-97E1-9820-FC6E5B2A91DC</referredTableID>
+<keyObject>0872BB7C-4C99-F92B-D383-5E5AC11FBA64</keyObject>
+<referredKeyID>0872BB7C-4C99-F92B-D383-5E5AC11FBA64</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDSENAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="32AD3ED2-2413-D52D-CA94-9F20313A00DA">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 14:44:19 UTC</createdTime>
+<ownerDesignName>Parrilla_programa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

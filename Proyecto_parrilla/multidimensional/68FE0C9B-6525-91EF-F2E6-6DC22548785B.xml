@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="68FE0C9B-6525-91EF-F2E6-6DC22548785B" mainViewID="377CEE3D-334E-3C92-5935-32AE7A593BB0" boundModel="A77D4B54-59F7-0966-1447-F16B3B97CCE2">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 16:12:02 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

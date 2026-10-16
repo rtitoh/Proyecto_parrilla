@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD0349E3-5DF6-1214-9BEE-8EB63B4CEED2" name="DISTRIBUCIONCOSTOS">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 19:23:05 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDCOSTO" id="B3E9B853-AC32-0911-2E78-7B109E40181A">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:03 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDPROGRAMA" id="967B9314-9D13-1E7F-0ACB-8B173F613CCD">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:15 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDSENAL" id="9C9145B7-B9CE-474C-6CC3-15131D5950B3">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:23 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VPERIODO" id="5514A34F-710C-50E3-DBD2-C14B016B28B1">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:29 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NMATERIALESDIRECTOS" id="E84C478C-EAD0-AECD-8674-5C9B0D342194">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:35 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NMATERIALESINDIRECTOS" id="D63CB86A-882E-1233-2E2D-4B5B6425A41C">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:49 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NSERVICIOS" id="23E1F366-A9A5-BCB1-40CE-57243B5F934F">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:33:59 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NDEPRECIACIONACTIVOS" id="F52819BE-92C7-3E72-1DDF-997C64ABB512">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:34:04 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NCOSTOTOTAL" id="16BFABD6-2C60-0685-D69B-4D0C0007BA8A">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 21:34:20 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDPROGRAMA1" id="430E6ED4-8153-AFEE-20BB-147591B548AD">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:32:15 UTC</createdTime>
+<generatorID>CEB152CA-D1AE-9656-1ACC-420E8B4212F5</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<referedAttribute>C9531A0B-2820-CB00-E9E4-942B5904E27E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDTIPOPRODUCCION" id="C7176041-2A73-C35F-D55C-942346141E06">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:32:15 UTC</createdTime>
+<generatorID>CEB152CA-D1AE-9656-1ACC-420E8B4212F5</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<referedAttribute>F051641E-1EEF-6BB7-68E8-9D23FA82BFF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDSENAL1" id="DFC9C555-15EF-1683-0621-D798B97E4BBC">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-16 15:32:29 UTC</createdTime>
+<generatorID>24150B40-07C3-9DD3-762B-2C9F46B6A4AF</generatorID>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<referedAttribute>3798C880-F2AF-95E8-4084-D6A7AC4150B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F7BD62A-17D8-8074-57F8-E2BEDEF6A480" name="Estado_Parrilla PK">
+<createdBy>programacionappotic</createdBy>
+<createdTime>2026-10-15 20:01:44 UTC</createdTime>
+<ownerDesignName>Proyecto_parrilla</ownerDesignName>
+<engineerTo>
+<item key="E4114451-42EF-D981-7594-EC309B32C742" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3E9B853-AC32-0911-2E78-7B109E40181A</attributeRef>
+<attributeRef>967B9314-9D13-1E7F-0ACB-8B173F613CCD</attributeRef>
+<attributeRef>9C9145B7-B9CE-474C-6CC3-15131D5950B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
